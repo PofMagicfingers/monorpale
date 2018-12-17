@@ -10,7 +10,7 @@ import unidecode
 from PyPDF2 import PdfFileReader, PdfFileWriter
 
 from argparse import FileType
-from .myargparser import MyParser
+from myargparser import MyParser
 
 def main():
     parser = MyParser()
